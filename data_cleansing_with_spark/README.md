@@ -1,0 +1,6 @@
+- Install Spark and download data
+- Data Profiling
+- EDA - Exploratory Data Analysis
+- Data Cleansing with PySpark
+- Data Cleansing with Spark SQL
+- Data Export in PySpark
