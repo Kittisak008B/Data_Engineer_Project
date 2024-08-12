@@ -1,4 +1,4 @@
-# airflow on docker
+# Airflow on Docker
 
 ```bash
 mkdir airflow_on_docker
@@ -29,5 +29,14 @@ docker compose up
 docker compose down --volumes --rmi all
 ```
 
-### ref
+## Reference
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+<br><br><br>
+
+### Graph View of the Tasks in a DAG
+![](./pics/dag_pic.png) <br>
+- __transaction_data_ingestion_from_database__ : Ingest sales transaction data from the MySQL database and save it as a CSV file
+- __get_conversion_rate_from_api__ : Send a request to get conversion rate data from the API and save it as a CSV file
+- __merge_data__ : Merge data from the previous tasks, convert the currency from GBP to THB, adjust columns, and save the result as a CSV file
+#### Result of the DAG
+![](./pics/csv_in_datafolder.png) <br>
