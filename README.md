@@ -24,6 +24,10 @@
   <ul>
     <li> <a href="https://github.com/Kittisak008B/Auto-Deploy_Cloud_Functions/blob/main/README.md"> Auto-Deploy_Cloud_Functions </a> </li>
   </ul>
+
+  <ul>
+    <li> <a href="https://github.com/Kittisak008B/coffee_sales_pipeline"> Coffee Sales Pipeline </a> </li>
+  </ul>
   
 </p>
 
