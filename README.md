@@ -28,6 +28,9 @@
   <ul>
     <li> <a href="https://github.com/Kittisak008B/coffee_sales_pipeline"> Coffee Sales Pipeline </a> </li>
   </ul>
-  
+
+  <ul>
+    <li> <a href="https://github.com/Kittisak008B/CDC_kafka/blob/main/README.md"> Change data capture using Kafka </a> </li>
+  </ul>
 </p>
 
